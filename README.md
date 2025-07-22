@@ -1,6 +1,5 @@
 # 💼 Employee Salary Prediction
 
-![Project Banner](https://img.shields.io/badge/Status-Completed-brightgreen)  
 > Predicting whether an employee’s salary is above or below a certain threshold using machine learning algorithms.
 
 ---
@@ -12,9 +11,6 @@
 - [⚙️ Tools & Libraries](#️-tools--libraries)
 - [📈 Results](#-results)
 - [✅ Conclusion](#-conclusion)
-- [🚀 How to Run](#-how-to-run)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
 
 ---
 
@@ -64,7 +60,7 @@ The dataset used is the **Adult Census Income Dataset**, which includes attribut
 - Occupation
 - Relationship
 - Race
-- Sex
+- Gender
 - Hours per week
 - Native country
 
@@ -72,20 +68,22 @@ The dataset used is the **Adult Census Income Dataset**, which includes attribut
 
 ## ⚙️ **Tools & Libraries**
 
-- Python 🐍
+- Python 
 - Pandas
 - NumPy
 - Scikit-Learn
 - Matplotlib
 - Seaborn
+- Streamlit
+- Joblib
 
 ---
 
 ## 📈 **Results**
 
 - Multiple models were compared to identify the best performing classifier.
+- Ensemble models like Random Forest & Gradient Boosting performed best.
 - Evaluation metrics like accuracy and ROC AUC Score were used to select the best model for predicting employee salaries.
-- Visualization of results was done using `matplotlib` and `seaborn`.
 
 ---
 
@@ -100,10 +98,6 @@ This project demonstrates the end-to-end process of:
 This solution can be extended or fine-tuned further with hyperparameter tuning or using more advanced models.
 
 ---
-
-## 🚀 **How to Run**
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/employee-salary-prediction.git
-
+## 📎 **Author**
+**Aneena Jose Thaliath**    
+📧 aneenajosethaliath@gmail.com
